@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const { BlobServiceClient } = require('@azure/storage-blob');
 const path = require('path');
