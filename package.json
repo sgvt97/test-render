@@ -1,0 +1,13 @@
+{
+  "name": "test-render",
+  "version": "1.0.0",
+  "description": "Slideshow webapp pulling images from Azure Blob Storage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.31.0",
+    "express": "^5.2.1"
+  }
+}
